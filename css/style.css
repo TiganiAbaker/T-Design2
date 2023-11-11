@@ -1,0 +1,187 @@
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* === Start Navbar === */
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border: 3px solid #343a40;
+}
+
+
+.nav-link {
+  color: white;
+}
+
+
+
+.Headig{
+  text-align: center;
+}
+
+/* === End Navbar === */
+
+/* ==== Start Feature ==== */
+#features{
+  background-color: #343a40;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.features-img {
+  width: 3rem;
+  border-radius: 0.75rem;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+}
+
+/* ==== End Feature ==== */
+
+/* === Start About us ====== */
+.history{
+  position: absolute;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.img-history{
+   display: block;
+   width: 700px;
+   height: 400px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.btn-history{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 0.5rem;
+ margin-top: 20px;
+}
+
+.btn {
+  width: 150px;
+}
+
+/* === End About us ====== */
+
+/*=== pricing === */
+
+#pricing{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header-pricing {
+  text-align: center;
+}
+
+.paragraph-pricing {
+  text-align: center;
+}
+
+.card {
+  text-align: left;
+}
+
+/*=== End pricing === */
+
+
+/* ==== Start stores === */
+
+#stores {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.store-paragraph {
+  text-align: center;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.card {
+  margin-top: 50px;
+  margin-botton: 50px;
+}
+
+.card-text {
+  text-align: left;
+  line-height: 1rem;
+
+}
+
+
+.card-title {
+  text-align: left;
+}
+
+/* ==== End stores === */
+
+/* === Start Contact === */
+#contact{
+  background-color: #343a40;
+  margin-top: 60px;
+}
+
+.bi bi-facebook {
+  width: 700px;
+  background-color: green;
+}
+
+.foot-header {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  fon-weight: bold;
+  padding-top: 70px;
+}
+
+.footer-paragraph {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+.img-footer{
+  text-align: center;
+}
+
+/* === End Contact === */
+
+
+
+/* === Start MEDIA QUEIES === */
+
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 10px;
+  }
+
+  .img-history{
+    width: 300px;
+  }
+
+  .img-footer{
+    text-align: center;
+  }
+}
+
+/* === End MEDIA QUEIES === */
